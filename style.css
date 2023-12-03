@@ -146,11 +146,13 @@ body{
     margin-left: 5px;
     text-align: center;
     line-height: 1.5;
-    transition: .3s ease-in-out;
+    transition: background-color .3s;
 }
 
 .size ul li:hover{
-    background: black;
+    background-color: #624652;
+    color: black;
+    /* background-color: black; */
 }
 
 .size span{
@@ -179,7 +181,11 @@ body{
     filter: grayscale(100%);
     width: 80px;
     height: 100px;
+    /* transition: filter .3s; */
+}
 
+.bottom-img:hover {
+    filter: none;
 }
 
 .bottom-right{
@@ -196,7 +202,7 @@ body{
     display: inline-block;
     padding: 10px 15px;
     margin: 20px 20px 40px 0;
-    /* background-color: #624652; */
+   
 }
 
 .media ul{
