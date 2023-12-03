@@ -171,12 +171,14 @@ body{
 .bottom-img {
     position: absolute;
     bottom: 80px;
-    right: 20px;
-    background: url('') no-repeat;
+    right: 85px;
+    background: url('./assets/perfume_PNG10250.png') no-repeat;
     background-position: center;
     background-size: cover;
-    width: 220px;
-    height: 150px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 80px;
+    height: 100px;
 
 }
 
